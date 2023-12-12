@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(226, 188, 148);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer {
+    color: azure;
+    font-weight: 700;
+
+}
+
+button,
+.input {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sketch {
+    display: flex;
+    gap: 50px;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.grid {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border: 10px outset;
+    border-radius: 10px;
+    display: grid;
+}
+
+.black:focus {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.white:focus {
+    background-color: #ffffff;
+    color: #0b0b0b;
+}
+
+.gray:focus {
+    background-color: rgb(98, 95, 95);
+    color: #ffffff;
+}
+
+.random:focus {
+    background-color: rgb(165, 104, 222);
+    color: #ffffff;
+}
+
+.reset:focus {
+    background-color: rgb(116, 11, 11);
+    color: #ffffff;
+}

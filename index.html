@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-sketch project</title>
+  </head>
+  <body>
+    <div class="flex-box">
+      <h1>Sketch Pad</h1>
+      <div class="mode"></div>
+      <div class="sketch">
+        <div class="buttons">
+          <button class="button black">Black</button>
+          <button class="button white">Erase</button>
+          <button class="button gray">Gray</button>
+          <button class="button random">Random</button>
+          <button class="button reset">Reset</button>
+          <div id="size-value" class="new-size">16 x 16</div>
+          <input id="sizeSlider" type="range" min="2" max="100" />
+        </div>
+        <div class="grid"></div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Ramous @ The Odin Project
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+    </footer>
+  </body>
+</html>
