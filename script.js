@@ -77,17 +77,15 @@ function sizeUpdate(value) {
 }
 
 document.querySelector("body").addEventListener("click", (e) => {
-  if (e.target.tagName != "BUTTON") {
-    click = !click;
-    if (click) {
-      let mode = document.querySelector(".mode");
-      mode.textContent = "Mode: coloring";
-      mode.style.cssText = `color:green`;
-    } else {
-      let mode = document.querySelector(".mode");
-      mode.textContent = "Mode: Not coloring";
-      mode.style.cssText = "color:red";
-    }
+  click = !click;
+  if (click) {
+    let mode = document.querySelector(".mode");
+    mode.textContent = "Mode: coloring";
+    mode.style.cssText = `color:green`;
+  } else {
+    let mode = document.querySelector(".mode");
+    mode.textContent = "Mode: Not coloring";
+    mode.style.cssText = "color:red";
   }
 });
 
